@@ -1,0 +1,48 @@
+.header {
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu a {
+    margin: 10px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: red;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: white;
+}
+
+.tour-list {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.card:hover {
+    background: lightgray;
+}
+
+button:hover {
+    background: orange;
+}
